@@ -41,13 +41,10 @@ git log
 ```
 >показывает историю коммитов
 ```
+## Перенос репозитория на удаленный
 git remote add origin https://github.com/ВашЛогинНаГитхаб/GitName.git
 ```
 >подключает к локальному репозиторию удаленный
-```
-git branch -M main
-```
->создает основную ветку
 ```
 git push -u origin main
 ```
@@ -56,10 +53,15 @@ git push -u origin main
  git remote -v
 ```
 >чтобы посмотреть какой удаленный репозиторий подключен
+## Работа с ветками
 ```
 git branch new_branch_name
 ```
 >создание новой ветки
+```
+git branch -M main
+```
+>создает основную ветку
 ```
 git checkout -b new_branch_name
 ```
