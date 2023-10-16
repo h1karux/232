@@ -52,6 +52,7 @@ git push -u origin main
  git remote -v
 ```
 >чтобы посмотреть какой удаленный репозиторий подключен
+```
 ## Работа с ветками
 ```
 git branch new_branch_name
