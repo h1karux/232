@@ -40,7 +40,6 @@ git status
 git log
 ```
 >показывает историю коммитов
-```
 ## Перенос репозитория на удаленный
 git remote add origin https://github.com/ВашЛогинНаГитхаб/GitName.git
 ```
